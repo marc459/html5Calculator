@@ -1,0 +1,26 @@
+body {
+	margin: 0;
+	text-align: center;
+}
+
+#body{
+	display: flex;
+	justify-content: center;
+	margin-top: 60px;
+}
+#calculator{
+	border: 1px solid black;
+	padding: 20px 10px 20px 10px;
+	background-color: gray;
+
+}
+#calculator td button{
+	width: 40px;
+	height: 40px;
+	background-color: white;
+	border: 1px solid black;
+}
+
+#calculator td button:active{
+	border: 1px solid rgb(179, 177, 177);
+}
